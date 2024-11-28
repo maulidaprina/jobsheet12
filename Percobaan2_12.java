@@ -5,13 +5,13 @@ public class Percobaan2_12 {
     static int hitungPangkat(int x, int y) {
         if (y == 0) {
             System.out.print("1");  
-            return 1;
+            return (1);
         } else if (y == 1) {
             System.out.print(x);  
             return x;
         } else {
             System.out.print(x + " x ");  
-            return x * hitungPangkat(x, y - 1); 
+            return (x * hitungPangkat(x, y - 1)); 
         }
     }
 
